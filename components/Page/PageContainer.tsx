@@ -8,36 +8,40 @@ type PageContainerProps = {
     footerAdd?: boolean;
 }
 
-const PageContainer:FunctionComponent<PageContainerProps> = ({headerAdd, footerAdd, children}) => {
+const PageContainer: FunctionComponent<PageContainerProps> = ({headerAdd, footerAdd, children}) => {
     const headerOnly: JSX.Element =
         <div className="page">
-            <Header/>
-            <main className={`main header-only`}>
-                {children}
-            </main>
+                <Header/>
+                <main className={`main header-only`}>
+                    {children}
+                </main>
         </div>;
 
     const footerOnly: JSX.Element =
         <div className="page">
-            <main className={`main footer-only`}>
-                {children}
-            </main>
-            <Footer/>
-        </div>;
+                <main className={`main footer-only`}>
+                    {children}
+                </main>
+                <Footer/>
+        </div>
+    ;
 
     const headerAndFooter: JSX.Element =
         <div className="page">
-            <Header/>
-            {children}
-            <Footer/>
-        </div>;
+                <Header/>
+                {children}
+                <Footer/>
+            
+        </div>
+    ;
 
     const cleanPage: JSX.Element =
         <div className="page">
-            <main className={`main main-only`}>
-                {children}
-            </main>
-        </div>;
+                <main className={`main main-only`}>
+                    {children}
+                </main>
+        </div>
+    ;
 
 
     if (headerAdd && footerAdd) {
@@ -49,7 +53,7 @@ const PageContainer:FunctionComponent<PageContainerProps> = ({headerAdd, footerA
     } else {
         return cleanPage
     }
-    
+
 };
 
 export default PageContainer;
