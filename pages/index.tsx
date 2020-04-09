@@ -1,12 +1,16 @@
-import { NextPage } from 'next';
+import {NextPage} from 'next';
+import PageContainer from "../components/Page/PageContainer";
+import React, {FunctionComponent} from "react";
 
-const Home: NextPage<{ userAgent: string }> = ({ userAgent }) => (
-  <h1>Hello world! - user agent: {userAgent}</h1>
+const HomeComponent: FunctionComponent = () => (
+    <div>Hello World</div>
 );
 
-Home.getInitialProps = async ({ req }) => {
-  const userAgent = req ? req.headers['user-agent'] || '' : navigator.userAgent;
-  return { userAgent };
-};
+const Home: NextPage<FunctionComponent> = (homeComponent) => (
+    <PageContainer headerAdd={true} footerAdd={true}> 
+        <HomeComponent/> 
+    </PageContainer>
+);
+
 
 export default Home;
