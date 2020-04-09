@@ -1,10 +1,11 @@
 ﻿﻿import {FunctionComponent} from "react";
+import EmojiDisplayer from "../Displayers/EmojiDisplayer";
 
 
 
 const Header : FunctionComponent = () => (
     <div>
-        Made with London In Heart
+        Made by Joseph Crawley <EmojiDisplayer symbol="🐱" label="cat"/>
     </div>
 );
 
