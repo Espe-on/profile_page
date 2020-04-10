@@ -16,3 +16,4 @@ const TextCard: FunctionComponent<TextCardProps> = ({title, subtitle, subtitleLi
 
     </div>
 );
+export default TextCard;
