@@ -11,6 +11,12 @@ const Header : FunctionComponent = () => (
         <Link href="/">
             <a style={linkStyle}>Home</a>
         </Link>
+        <Link href="/profile">
+            <a style={linkStyle}>Profile</a>
+        </Link>
+        <Link href="/portfolio">
+            <a style={linkStyle}>Portfolio</a>
+        </Link>
     </div>
 );
 

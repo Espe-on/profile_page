@@ -1,16 +1,26 @@
 import {NextPage} from 'next';
 import PageContainer from "../components/Page/PageContainer";
 import React, {FunctionComponent} from "react";
+import Link from "next/link";
 
-const HomeComponent: FunctionComponent = () => (
-    <div>Hello World</div>
+const linkStyle = {
+    marginRight: 15
+};
+
+
+const HomeSplashComponent: FunctionComponent = () => (
+    <div>
+        <Link href="/home">
+            <a style={linkStyle}>Enter Site</a>
+        </Link>
+    </div>
 );
 
-const Home: NextPage<FunctionComponent> = (homeComponent) => (
-    <PageContainer headerAdd={true} footerAdd={true}> 
-        <HomeComponent/> 
+const HomeSplash: NextPage<FunctionComponent> = (homeComponent) => (
+    <PageContainer headerAdd={false} footerAdd={false}>
+        <HomeSplashComponent/>
     </PageContainer>
 );
 
 
-export default Home;
+export default HomeSplash;
