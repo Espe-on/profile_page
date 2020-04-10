@@ -8,7 +8,7 @@ const linkStyle = {
 
 const Header : FunctionComponent = () => (
     <div>
-        <Link href="/">
+        <Link href="/home">
             <a style={linkStyle}>Home</a>
         </Link>
         <Link href="/profile">
