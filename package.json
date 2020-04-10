@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "jest --passWithNoTests"
   },
   "keywords": [],
   "author": "",
@@ -17,8 +18,15 @@
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-typescript": "^7.9.0",
     "@types/node": "^13.11.1",
     "@types/react": "^16.9.33",
+    "babel-jest": "^25.3.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "jest": "^25.3.0",
     "typescript": "^3.8.3"
   }
 }
