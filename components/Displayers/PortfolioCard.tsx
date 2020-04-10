@@ -8,15 +8,16 @@ interface PortfolioCardProps {
     imageAlt?: string;
 }
 
-const PortfolioCard: FunctionComponent<PortfolioCardProps> = ({title, subtitle, bodyText, imageUrl, imageAlt}) => (
-    <div className="portfolio-card">
-        <div className="text-container">
-            <h3 className="title">{title}</h3>
-            <h4 className="subtitle">{subtitle}</h4>
-            <p className="body-text">{bodyText}</p>
+const PortfolioCard: FunctionComponent<PortfolioCardProps> =
+    ({title, subtitle, bodyText, imageUrl, imageAlt}) => (
+        <div className="portfolio-card">
+            <div className="text-container">
+                <h3 className="title">{title}</h3>
+                <h4 className="subtitle">{subtitle}</h4>
+                <p className="body-text">{bodyText}</p>
+            </div>
+            <img src={imageUrl} alt={imageAlt}/>
         </div>
-        <img src={imageUrl} alt={imageAlt}/>
-    </div>
-);
+    );
 
 export default PortfolioCard;
