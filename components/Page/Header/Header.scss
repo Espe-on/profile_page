@@ -1,6 +1,15 @@
 ﻿@import 'SiteStyles.scss';
 .header {
   top: 0;
-  position: sticky;
-  font-size: $para-text;
+  min-height: 30px;
+  max-height: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  border: black solid 1px;
+  a {
+    color:black;
+    text-decoration: none; /* no underline */
+  }
 }

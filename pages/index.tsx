@@ -5,7 +5,7 @@ import PageContainer from "../components/Page/PageContainer/PageContainer";
 import '../pages_styles/index.scss'
 
 const HomeSplashComponent: FunctionComponent = () => (
-    <div className="homeSplash">
+    <div className="home-splash">
         <Link href="/home">Enter Site</Link>
     </div>
 );
