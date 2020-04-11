@@ -1,7 +1,7 @@
 ﻿import {NextPage} from 'next';
-import PageContainer from "../components/Page/PageContainer";
 import React, {FunctionComponent} from "react";
-import PhotoCard from "../components/Displayers/PhotoCard";
+import PageContainer from "../components/Page/PageContainer/PageContainer";
+import PhotoCard from "../components/Displayers/PhotoCard/PhotoCard";
 
 const ProfileComponent: FunctionComponent = () => (
     <div>
