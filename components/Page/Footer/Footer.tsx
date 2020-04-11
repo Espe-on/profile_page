@@ -4,8 +4,8 @@ import './Footer.scss';
 
 
 const Header : FunctionComponent = () => (
-    <div>
-        Made by Joseph Crawley (aka Espe-ON <EmojiDisplayer symbol="🐱" label="cat"/>)
+    <div className="footer">
+        <p className="footer-text">Made by Joseph Crawley (aka Espe-ON <EmojiDisplayer symbol="🐱" label="cat"/>)</p>
     </div>
 );
 

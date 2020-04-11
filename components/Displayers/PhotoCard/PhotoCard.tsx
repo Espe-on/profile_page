@@ -10,7 +10,7 @@ interface PhotocardProps {
 const PhotoCard: FunctionComponent<PhotocardProps> = ({subtitle,imageUrl, imageAlt}) => (
     <div className="photocard">
         <img className="photocard-photo" src={imageUrl} alt={imageAlt}/>
-        <h4>{subtitle}</h4>
+        <h3>{subtitle}</h3>
     </div>
 );
 

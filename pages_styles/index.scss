@@ -1,0 +1,17 @@
+﻿@import 'SiteStyles.scss';
+
+.home-splash {
+  align-self: center;
+  justify-self: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-height : 150px;
+  height : 15%;
+  min-width: 200px;
+  width : 20%;
+  background: $box-background;
+  border: $border solid 1px ;
+  border-radius: 25px;
+}
