@@ -1,6 +1,6 @@
 ﻿﻿﻿﻿import Link from 'next/link';
 import React, {FunctionComponent} from "react";
-import './Header.scss.scss';
+import './Header.scss';
 
 const Header : FunctionComponent = () => (
     <div>
