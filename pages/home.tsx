@@ -1,5 +1,5 @@
 ﻿import {NextPage} from 'next';
-import PageContainer from "../components/Page/PageContainer";
+import PageContainer from "../components/Page/PageContainer/PageContainer";
 import React, {FunctionComponent} from "react";
 
 const HomeComponent: FunctionComponent = () => (

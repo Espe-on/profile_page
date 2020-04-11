@@ -1,4 +1,5 @@
-﻿import {FunctionComponent} from "react";
+﻿﻿import {FunctionComponent} from 'react';
+import './PortfolioCard.scss';
 
 interface PortfolioCardProps {
     title: string

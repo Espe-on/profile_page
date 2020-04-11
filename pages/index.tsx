@@ -1,17 +1,12 @@
 import {NextPage} from 'next';
-import PageContainer from "../components/Page/PageContainer";
-import React, {FunctionComponent} from "react";
 import Link from "next/link";
-
-const linkStyle = {
-    marginRight: 15
-};
-
+import React, {FunctionComponent} from "react";
+import PageContainer from "../components/Page/PageContainer/PageContainer";
 
 const HomeSplashComponent: FunctionComponent = () => (
     <div>
         <Link href="/home">
-            <a style={linkStyle}>Enter Site</a>
+            <a>Enter Site</a>
         </Link>
     </div>
 );

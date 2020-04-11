@@ -1,7 +1,6 @@
 ﻿import {NextPage} from 'next';
-import PageContainer from "../components/Page/PageContainer";
-import React, {FunctionComponent} from "react";
-import PortfolioCard from "../components/Displayers/PortfolioCard";
+import PageContainer from "../components/Page/PageContainer/PageContainer";import React, {FunctionComponent} from "react";
+import PortfolioCard from "../components/Displayers/PortfolioCard/PortfolioCard";
 
 const PortfolioComponent: FunctionComponent = () => (
     <div><PortfolioCard title={"TestCard"} subtitle={"Whoooo boy a test"} bodyText={"Here is some text for testing"} imageUrl={"https://robohash.org/profiletest"}/></div>
