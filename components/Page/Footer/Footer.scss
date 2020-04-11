@@ -1,1 +1,11 @@
 ﻿@import "ConstantsMixins";
+.footer {
+  //border: black solid 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  position: fixed;
+  height: 30px;
+  width: 100%;
+}
