@@ -1,7 +1,7 @@
-﻿﻿﻿import React, {FunctionComponent} from "react";
-import Header from './Header'
-import Footer from './Footer'
-
+﻿﻿﻿﻿import React, {FunctionComponent} from 'react';
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
+import './PageContainer.scss';
 
 type PageContainerProps = {
     headerAdd?: boolean;

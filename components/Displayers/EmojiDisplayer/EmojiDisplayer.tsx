@@ -1,4 +1,5 @@
-﻿import {FunctionComponent} from "react";
+﻿﻿import {FunctionComponent} from 'react';
+import './EmojiDisplayer.scss';
 
 interface EmojiProps {
     symbol: string;

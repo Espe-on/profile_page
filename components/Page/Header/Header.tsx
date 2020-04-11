@@ -1,21 +1,17 @@
-﻿﻿﻿import Link from 'next/link';
+﻿﻿﻿﻿import Link from 'next/link';
 import React, {FunctionComponent} from "react";
-
-
-const linkStyle = {
-    marginRight: 15
-};
+import './Header.scss.scss';
 
 const Header : FunctionComponent = () => (
     <div>
         <Link href="/home">
-            <a style={linkStyle}>Home</a>
+            <a>Home</a>
         </Link>
         <Link href="/profile">
-            <a style={linkStyle}>Profile</a>
+            <a>Profile</a>
         </Link>
         <Link href="/portfolio">
-            <a style={linkStyle}>Portfolio</a>
+            <a>Portfolio</a>
         </Link>
     </div>
 );
