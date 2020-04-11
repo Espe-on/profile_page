@@ -11,8 +11,8 @@ interface TextCardProps {
 
 const TextCard: FunctionComponent<TextCardProps> = ({title, subtitle, subtitleLink, bodyText}) => (
     <div className={"textcard"}>
-        <h3 className="title">{title}</h3>
-        <h4 className="subtitle"><Link href={subtitleLink}>{subtitle}</Link></h4>
+        <h2 className="title">{title}</h2>
+        <h3 className="subtitle"><Link href={subtitleLink}>{subtitle}</Link></h3>
         <p className="body-text">{bodyText}</p>
     </div>
 );

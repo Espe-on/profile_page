@@ -13,8 +13,8 @@ const PortfolioCard: FunctionComponent<PortfolioCardProps> =
     ({title, subtitle, bodyText, imageUrl, imageAlt}) => (
         <div className="portfolio-card">
             <div className="text-container">
-                <h3 className="title">{title}</h3>
-                <h4 className="subtitle">{subtitle}</h4>
+                <h2 className="title">{title}</h2>
+                <h3 className="subtitle">{subtitle}</h3>
                 <p className="body-text">{bodyText}</p>
             </div>
             <img src={imageUrl} alt={imageAlt}/>
