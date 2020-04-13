@@ -1,0 +1,52 @@
+﻿{
+  "siteName": "",
+  "firstName": "",
+  "lastName": "",
+  "profilePic": "",
+  "biography": {
+    "title": "",
+    "subtitle": "",
+    "paragraphs": [
+      {
+        "id": 0,
+        "text": "",
+        "pictureUrls": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id": 1,
+        "text": "",
+        "pictureUrls": [
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  "portfolio": {
+    "title": "",
+    "subtitle": "",
+    "projects": [
+      {
+        "id" : 0,
+        "text": "",
+        "projectUrl" : "",
+        "pictureUrls": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id" : 1,
+        "text": "",
+        "projectUrl" : "",
+        "pictureUrls": [
+          "",
+          ""
+        ]
+      }
+    ]
+  }
+}
